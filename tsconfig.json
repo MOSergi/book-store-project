@@ -4,13 +4,9 @@
         "target": "ES6",
         "noImplicitAny": true,
         "removeComments": false,
-        "preserveConstEnums": false,
-        "outDir": "build",
-        "allowJs": true,
+        "preserveConstEnums": true,
         "jsx": "react-jsx",
         "allowSyntheticDefaultImports": true,
         "moduleResolution": "Node"
-    },
-    "include": ["src/**/*"],
-    "exclude": ["node_modules"]
+    }
 }
