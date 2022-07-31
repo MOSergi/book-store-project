@@ -1,0 +1,115 @@
+#menu {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+#menu ul {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-around;
+    list-style: none;
+}
+
+#shopName {
+    display: none;
+}
+
+#menuDivisions {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.submenusections {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+
+#menu ul h2:first-child {
+    color: #FC7F26;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    margin-left: 20px;
+}
+
+.linkActive {
+    border-bottom: 2px solid #FC7F26;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 20px;
+    color: #FC7F26;
+}
+
+.BurgerMenu {
+    color: white;
+    display: none;
+}
+
+/*Media queries*/
+
+@media screen and (max-width: 550px) {
+
+    #shopName {
+        display: inline;
+    }
+
+    #menuDivisions {
+        display: none;
+        flex-flow: column nowrap;
+        justify-content: start;
+        position: absolute;
+        top: 100px;
+        left: 0px;
+        height: 90vh;
+        background-color: rgba(15, 15, 15, 0.6);
+    }
+
+
+    #menuDivisionsMb {
+        display: flex;
+        align-items: center;
+        flex-flow: column nowrap;
+        justify-content: start;
+        width: 100%;
+        position: absolute;
+        top: 100px;
+        left: 0px;
+        height: 90vh;
+        background-color: rgba(15, 15, 15, 0.6);
+    }
+
+    .submenusections {
+        flex-flow: column nowrap;
+        margin-top: 35px;
+    }
+
+    .submenusections li {
+        margin-top: 10px;
+    }
+
+    .BurgerMenu {
+        display: flex;
+    }
+    
+}
+
+@media screen and (min-width : 551px){
+    #menuDivisionsMb {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+    }
+}
