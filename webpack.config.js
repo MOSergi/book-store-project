@@ -6,7 +6,7 @@ module.exports = {
     entry : "./src/index.tsx",
     output : {
         path : path.resolve(__dirname, "./build"),
-        filename : "bundle.js"
+        filename : "script.js"
     },
     module : {
         rules : [
@@ -37,7 +37,8 @@ module.exports = {
     devServer : {
         static : {
             directory : path.join(__dirname, "./src/public")
-        }
+        },
+        historyApiFallback: true
     },
     resolve : {
         extensions : [".tsx", ".ts", ".js"]
