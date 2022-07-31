@@ -48,6 +48,9 @@
     font-size: 20px;
     color: white;
     margin-left: 20px;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 5px;
 }
 
 .linkActive {
@@ -57,6 +60,9 @@
     text-decoration: none;
     font-size: 20px;
     color: #FC7F26;
+    padding: 10px;
+    border: 2px solid #FC7F26;
+    border-radius: 5px;
 }
 
 .BurgerMenu {
