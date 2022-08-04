@@ -5,7 +5,7 @@ import "./styles/App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 //component imports
 import Navbar from "./components/Navbar";
-
+import HomeMain from "./components/HomeMain";
 
 export default function App() {
 
@@ -14,7 +14,7 @@ export default function App() {
         return (
             <Router>
                 <Routes>
-                    <Route path="/" element={<><Navbar /></>}/>
+                    <Route path="/" element={<><Navbar /> <HomeMain /></>}/>
                 </Routes>
             </Router>
         );

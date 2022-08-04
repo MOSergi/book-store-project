@@ -31,12 +31,16 @@ module.exports = {
             {
                 test : /\.css$/i,
                 use: [MiniCssExtractPlugin.loader, "css-loader"]
+            },
+            {
+                test : /\.(png|svg|jpg|jpeg|gif)$/i,
+                type : "asset/resource"
             }
         ]
     },
     devServer : {
         static : {
-            directory : path.join(__dirname, "./src/public")
+            directory : path.join(__dirname, "./src/resources")
         },
         historyApiFallback: true
     },
