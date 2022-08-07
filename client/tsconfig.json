@@ -7,7 +7,6 @@
         "preserveConstEnums": true,
         "jsx": "react-jsx",
         "allowSyntheticDefaultImports": true,
-        "moduleResolution": "Node"
-    },
-    "include": ["./customSvg.d.ts"]
+        "moduleResolution": "Node",
+    }
 }
