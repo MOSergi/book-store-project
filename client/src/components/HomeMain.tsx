@@ -1,6 +1,6 @@
-
 //img import
 import imgIntro from "../resources/book-intro-image.svg";
+import "../styles/HomeMain.css";
 
 export default function HomeMain(){
     return (

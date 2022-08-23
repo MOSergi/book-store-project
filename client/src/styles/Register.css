@@ -1,0 +1,35 @@
+#Registro {
+    margin-top: 25px;
+    text-align: center;
+}
+
+#Registro h2 {
+    color: #EE7825;
+}
+
+#Registro form {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+#Registro form input {
+    padding: 12px;
+    width: 310px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    border-style: none;
+}
+
+#Registro form button {
+    padding: 10px;
+    width: 300px;
+    font-size: 18px;
+    font-weight: bold;
+    border-style: none;
+    border-radius: 4px;
+    background-color: #EE7825;
+    color: white;
+}

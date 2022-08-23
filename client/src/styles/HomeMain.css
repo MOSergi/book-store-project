@@ -1,0 +1,9 @@
+#Intro {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+#Intro h2, h4 {
+    color: white;
+}
